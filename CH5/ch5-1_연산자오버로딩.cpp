@@ -11,7 +11,7 @@ class plus {
         int plus_val();
 };
 plus::plus(int x, int y, int res) : x(x),y(y),res(res) {}
-
+//s
 int plus::plus_val() {
 
     std::cout<<"overloading success"<<std::endl;

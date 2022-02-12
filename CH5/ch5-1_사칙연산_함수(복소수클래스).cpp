@@ -49,7 +49,7 @@ Complex Complex::operator/(const Complex& c) const {
     (img * c.real - real * c.img) / (c.real * c.real + c.img * c.img));
   return temp;
 }
-
+//d
 int main() {
   Complex a(1.0, 2.0);
   Complex b(3.0, -2.0);

@@ -64,7 +64,7 @@ Complex Complex::operator+(const char* str) const{
     //자주 쓰이는 기법, temp로 임시 객체를 만든 후 리턴한다. 리턴되는순간
     //메모리 삭제가 되기때문에 문제가 없음.
     return (*this) + temp;
-
+//z
 }
 double Complex::get_number(const char *str, int from, int to) const {
   bool minus = false;
