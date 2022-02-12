@@ -69,7 +69,7 @@ Complex Complex::operator+(const char* str) const{
 double Complex::get_number(const char *str, int from, int to) const {
   bool minus = false;
   if (from > to) return 0; // from 이 to보다큰 경우는 예외처리
-
+//D
   if (str[from] == '-') minus = true;
   if (str[from] == '-' || str[from] == '+') from++;
 
